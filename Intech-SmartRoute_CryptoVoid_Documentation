@@ -1,4 +1,4 @@
-# Smart-Route-Optimizer
+Smart-Route-Optimizer
 This project provides a comprehensive solution for optimizing delivery routes using various vehicle types. The optimizer prioritizes the use of smaller, more eco-friendly vehicles (3W and 4W-EV) and falls back to larger vehicles (4W) when necessary. The solution includes route creation, visualization, and summary generation.
 
 # Table of Contents
