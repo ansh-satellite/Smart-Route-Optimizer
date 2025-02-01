@@ -1,0 +1,32 @@
+# Smart-Route-Optimizer
+This project provides a comprehensive solution for optimizing delivery routes using various vehicle types. The optimizer prioritizes the use of smaller, more eco-friendly vehicles (3W and 4W-EV) and falls back to larger vehicles (4W) when necessary. The solution includes route creation, visualization, and summary generation.
+
+# Table of Contents
+Features
+Installation
+Usage
+File Structure
+Contributing
+License
+
+# Features
+
+1.Route Optimization:  Creates optimized delivery routes considering vehicle capacities, distances, and time constraints.
+2.Vehicle Prioritization: Prioritizes the use of 3W and 4W-EV vehicles for shorter distances.
+3.Visualization: Generates an interactive map using Folium to visualize the delivery routes.
+4.Summary Generation: Produces an HTML summary of all routes with key metrics.
+
+# Installation:
+
+# 1.Clone the Repository
+
+git clone https://github.com/ansh-satellite/Smart-Route-Optimizer.git
+cd Smart-Route-Optimizer
+
+# 2.Install Dependencies:
+
+pip install -r requirements.txt
+
+# 3.Prepare Data:
+Ensure you have a CSV file with the delivery data. The CSV should include columns for Shipment ID, Latitude, Longitude, and Delivery Timeslot.
+
